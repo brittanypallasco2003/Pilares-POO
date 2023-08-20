@@ -9,6 +9,6 @@
 Una de las ventajas que ofrece la Herencia es la reutilización de código en el programa, puesto que permite ahorrar trabajo al realizar un cambio en en el sistema al permitir que un solo algoritmo pueda procesar distintas clases de entidades.
 ### Ejemplos: 
 #### 1. Herencia Única
-![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/7957a971-7efc-430c-9fae-70ef8feb7813)
+![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ea2b7d8e-1ee1-4263-9b8f-d2f6e1a6c805)
 ## Polimorfismo
 ### Explicación

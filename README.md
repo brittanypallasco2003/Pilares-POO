@@ -19,6 +19,10 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 
 *La clase Gato hereda los métodos y atributos de la clase Mascota, por lo cual se puede acceder y setear el nombre de la mascota, del dueño y la dieta* 
 #### 2. Herencia Jerárquica
+|Digrama UML|Ingresar Información|Mostrar Información|
+|-----|--------|--------|
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0fb685e4-6627-4469-84a1-d38df5e77130)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/cdfe5547-e145-431c-acf1-a5937ef19635)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/44e7f0a6-c69b-499a-863e-33da2148c268)| 
+
 #### 3. Herencia Multinivel
 
 ## 4) Polimorfismo

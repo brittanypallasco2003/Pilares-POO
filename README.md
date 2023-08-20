@@ -10,5 +10,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 ### Ejemplos: 
 #### 1. Herencia Única
 ![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ea2b7d8e-1ee1-4263-9b8f-d2f6e1a6c805)
+![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/033ac065-ea61-4eb9-a373-d75ce09dd0f0)
+![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/b6b0d14b-6304-49bc-a318-a936f653c83b)
 ## Polimorfismo
 ### Explicación

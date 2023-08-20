@@ -15,6 +15,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 
 *La clase Gato hereda los métodos y atributos de la clase Mascota, por lo cual se puede acceder y setear el nombre de la mascota, del dueño y la dieta* 
 #### 2. Herencia Jerárquica
+#### 3. Herencia Multinivel
 
 ## Polimorfismo
 ### Explicación

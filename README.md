@@ -33,7 +33,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 
 |Ingresar Información|Mostrar Información|
 |-----|-----|
-|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/386ff371-d014-43e9-b674-722aaa7ad05a)||
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/386ff371-d014-43e9-b674-722aaa7ad05a)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/743c2e17-0753-4cb2-aa1d-283f2f97d69f)|
 ## 4) Polimorfismo
 ### Explicación
 El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a través de una interfaz común. Puedes crear métodos en una superclase que pueden ser implementados de manera diferente en las subclases. Esto permite que distintos objetos respondan a una misma llamada de método de manera adecuada según su tipo.

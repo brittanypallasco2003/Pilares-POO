@@ -27,7 +27,14 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/22fce799-4619-4980-b48d-bf238f0e48ab)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/8b98b09d-4016-480f-8c28-0f2c2e3753b1)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/711fac96-02d2-4540-a4e1-fb3c0093c427)|
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/2c019aa8-df0c-4a99-ac6a-f7cccaf7713e)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/f0165636-4458-4453-a4b2-b54d0960c73f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/4dc682e8-c617-40b0-ac20-d99055e1c463)|
 #### 3. Herencia Multinivel
+|Diagrama UML|
+|-----|
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ac961353-e33f-49c3-9cff-1a96026b9073)|
 
+|Ingresar Información|Mostrar Información|
+|-----|-----|
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/80614a35-1990-4a20-a91b-91f338a071be)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/743c2e17-0753-4cb2-aa1d-283f2f97d69f)|
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0125b5bf-6cab-4072-9cd8-4f04b338712f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/c9725581-9215-4e78-affa-f62a72d5452a)|
 ## 4) Polimorfismo
 ### Explicación
 El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a través de una interfaz común. Puedes crear métodos en una superclase que pueden ser implementados de manera diferente en las subclases. Esto permite que distintos objetos respondan a una misma llamada de método de manera adecuada según su tipo.

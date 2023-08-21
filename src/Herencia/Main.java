@@ -13,7 +13,7 @@ public class Main {
 
         //VARIABLES
         int opcMain=0, ngatos, nPerros,nconejos,nLobos, opcJerarquico;
-        String nomProp, nomMascota,nomCientifico,razaConejo, orden,familia, razaLobo;
+        String nomProp, nomMascota,nomCientifico,razaConejo, orden,familia, razaLobo, nomCientificoL, nomCientificoP;
         float pesoKg;
 
         //OBJETO DE ENTRADA
@@ -81,45 +81,52 @@ public class Main {
                     }while (opcJerarquico!=4);//fin do jerarquico--> case 2
                     break;//fin herencia jerarquica
                 case 3:
-                    System.out.println("Ingrese el nombre cientifico del perro o del lobo");
-                    nomCientifico=entrada.nextLine();
-                    if(nomCientifico.equals("Canis lupus familiaris")){
-                        System.out.println("Ingrese el número de Perros");
-                        nPerros=entrada.nextInt();
-                        ingresarPerros(perros, nPerros, entrada);
-                        for (Perro perro : perros) {
-                            System.out.println("----------Info de: " + perro.getNomMascota() + "----------");
-                            perro.setNomCientifico(nomCientifico);
-                            System.out.println("Nombre Científico: "+perro.getNomCientifico());
-                            System.out.println("Propietario: " + perro.getNomProp());
-                            System.out.println("Raza: " + perro.getRazaPerro());
-                            System.out.println("Color del Pelaje: " + perro.getPromVida());
-                        }
-                    } else if (nomCientifico.equals("Canis lupus")) {
-                        System.out.println("Ingrese el numero de Lobos: ");
-                        nLobos=entrada.nextInt();
-                        for (int i=0; i<nLobos; i++){
-                            System.out.println("Info de Lobo " + (i + 1) + ": ");
+                    do{
+                        System.out.println("Ingrese el nombre cientifico del perro o del lobo o escriba la palabra <<ninguno>>: ");
+                        nomCientifico=entrada.nextLine();
+                        if(nomCientifico.equals("Canis lupus familiaris")){
+                            System.out.println("Ingrese el número de Perros");
+                            nPerros=entrada.nextInt();
+                            ingresarPerros(perros, nPerros, entrada);
                             entrada.nextLine();
-                            System.out.print("Ingrese el orden: ");
-                            orden = entrada.nextLine();
-                            System.out.print("Ingrese la raza: ");
-                            razaLobo = entrada.nextLine();
-                            System.out.print("Ingrese la familia a la que pertenece: " + razaLobo+ ": ");
-                            familia = entrada.nextLine();
-                            lobos.add(new Lobo(nomCientifico,"",orden,familia,razaLobo));
+                            for (Perro perro : perros) {
+                                System.out.println("----------Info de: " + perro.getNomMascota() + "----------");
+                                System.out.print("Ingrese el nombre científico del "+perro.getRazaPerro()+": ");
+                                nomCientificoP=entrada.nextLine();
+                                perro.setNomCientifico(nomCientificoP);
+                                System.out.println("Nombre Científico: "+perro.getNomCientifico());
+                                System.out.println("Propietario: " + perro.getNomProp());
+                                System.out.println("Raza: " + perro.getRazaPerro());
+                                System.out.println("Color del Pelaje: " + perro.getPromVida());
+                            }
+                        } else if (nomCientifico.equals("Canis lupus")) {
+                            System.out.println("Ingrese el numero de Lobos: ");
+                            nLobos=entrada.nextInt();
+                            entrada.nextLine();
+                            for (int i=0; i<nLobos; i++){
+                                System.out.println("Info de Lobo " + (i + 1) + ": ");
+                                System.out.print("Ingrese el nombre científico completo: ");
+                                nomCientificoL=entrada.nextLine();
+                                System.out.print("Ingrese el orden: ");
+                                orden = entrada.nextLine();
+                                System.out.print("Ingrese la raza: ");
+                                razaLobo = entrada.nextLine();
+                                System.out.print("Ingrese la familia a la que pertenece " + razaLobo+ ": ");
+                                familia = entrada.nextLine();
+                                lobos.add(new Lobo(nomCientificoL,"",orden,familia,razaLobo));
+                            }
+                            for (Lobo lobo : lobos) {
+                                System.out.println("----------Info de: " + lobo.getRazaLobo() + "----------");
+                                System.out.println("Nombre Científico: "+lobo.getNomCientifico());
+                                System.out.println("Orden: " + lobo.getOrdenAnimal());
+                                System.out.println("familia: " + lobo.getFamilia());
+                            }
                         }
-                        for (Lobo lobo : lobos) {
-                            System.out.println("----------Info de: " + lobo.getRazaLobo() + "----------");
-                            System.out.println("Nombre Científico: "+lobo.getNomCientifico());
-                            System.out.println("Orden: " + lobo.getOrdenAnimal());
-                            System.out.println("familia: " + lobo.getFamilia());
-                        }
-                    }
+                    }while (!nomCientifico.equals("ninguno"));//fin de do-while Multinivel
                     break;
             }//fin del switch main
         }while (opcMain!=4);
-        //fin do main
+        //fin do-while main
     }
 
     private static void ingresarPerros(ArrayList<Perro> perros, int nPerros, Scanner entrada) {

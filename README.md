@@ -15,7 +15,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 #### 1. Herencia Única
 |Diagrama UML|Ingresar Información|Mostrar Información|
 |-----|--------|--------|
-|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/a2fd1404-0d01-4e91-8dae-28872313f999)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/72a69319-2181-46d0-b571-e78af99d022e)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/44e7f0a6-c69b-499a-863e-33da2148c268)| 
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/a2fd1404-0d01-4e91-8dae-28872313f999)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/72a69319-2181-46d0-b571-e78af99d022e)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/24a5e672-a448-45fd-a312-8d1ae2a8f2ed)| 
 
 *La clase Gato hereda los métodos y atributos de la clase Mascota, por lo cual se puede acceder y setear el nombre de la mascota, del dueño y la dieta.* 
 #### 2. Herencia Jerárquica

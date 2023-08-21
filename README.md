@@ -30,7 +30,8 @@ La encapsulación consiste en agrupar datos y los métodos (funciones) que opera
 
 #### 2. Ejemplo Encapsulamiento 2
 
-![img_8.png](img_8.png)![img_9.png](img_9.png)![img_10.png](img_10.png)![img_11.png](img_11.png)
+|![img_8.png](img_8.png)<br/>|![img_9.png](img_9.png)<br/>|![img_10.png](img_10.png)<br/>| ![img_11.png](img_11.png) |
+|-|-|-|---------------------------|
 
 #### 3. Ejemplo Encapsulamiento 3
 

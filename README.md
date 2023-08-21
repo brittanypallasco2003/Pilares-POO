@@ -25,19 +25,8 @@ La encapsulación consiste en agrupar datos y los métodos (funciones) que opera
 
 #### 1. Ejemplo Encapsulamiento 1
 
-| Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-|![img_4.png](img_4.png)
-|-|
-
-Una vez creados los atributos se procede a crear los metodos publicos los cuales permitiran que se puedan acceder a los atributos en otra clase
-
-![img_5.png](img_5.png)
-
-Dentro de clase main se puede observar que los atributos finalmente pueden ser llamados junto a los metodos publicos
-
-![img_6.png](img_6.png)![img_7.png](img_7.png)
+|![img_4.png](img_4.png)<br/>Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma. |![img_5.png](img_5.png)<br/>Una vez creados los atributos se procede a crear los metodos publicos los cuales permitiran que se puedan acceder a los atributos en otra clase. |![img_6.png](img_6.png)![img_7.png](img_7.png)<br/>Dentro de clase main se puede observar que los atributos finalmente pueden ser llamados junto a los metodos publicos|
+|-|-|-|
 
 #### 2. Ejemplo Encapsulamiento 2
 

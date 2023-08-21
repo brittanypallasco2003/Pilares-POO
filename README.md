@@ -33,7 +33,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 
 |Ingresar Información|Mostrar Información|
 |-----|-----|
-|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/386ff371-d014-43e9-b674-722aaa7ad05a)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/743c2e17-0753-4cb2-aa1d-283f2f97d69f)|
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/80614a35-1990-4a20-a91b-91f338a071be)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/743c2e17-0753-4cb2-aa1d-283f2f97d69f)|
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0125b5bf-6cab-4072-9cd8-4f04b338712f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/c9725581-9215-4e78-affa-f62a72d5452a)|
 ## 4) Polimorfismo
 ### Explicación

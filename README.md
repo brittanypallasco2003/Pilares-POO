@@ -43,3 +43,16 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 ### Explicación
 El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a través de una interfaz común. Puedes crear métodos en una superclase que pueden ser implementados de manera diferente en las subclases. Esto permite que distintos objetos respondan a una misma llamada de método de manera adecuada según su tipo.
 ### Ejemplos:
+### 1.
+Supongamos que tenemos una jerarquía de clases que representan diferentes formas geométricas, como círculos y rectángulos.
+![img.png](src/Polimorfismo/img/img.png)
+Cada forma geométrica debe calcular su área. Para lograr el polimorfismo, podemos crear una interfaz común llamada "Shape" que define el método para calcular el área.
+
+|![img.png](src/Polimorfismo/img/img2.png)|![img.png](src/Polimorfismo/img/img3.png)|
+|-|-|
+y luego las clases "Circle" y "Rectangle" implementarán esta interfaz y proporcionarán su propia implementación del cálculo del área.
+
+|![img.png](src/Polimorfismo/img/img4.png)|![img.png](src/Polimorfismo/img/img5.png)|
+|-|-|
+
+En este ejemplo, tanto el objeto circle como el objeto rectangle pueden ser tratados de manera uniforme a través de la interfaz Shape, lo que permite llamar al método calculateArea() sin preocuparse por las diferencias específicas entre círculos y rectángulos. Esto es el polimorfismo en acción.

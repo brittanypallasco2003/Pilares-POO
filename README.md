@@ -36,8 +36,8 @@ La encapsulación consiste en agrupar datos y los métodos (funciones) que opera
 
 #### 3. Ejemplo Encapsulamiento 3
 
-|![img_12.png](img_12.png)<br/>|![img_13.png](img_13.png)|<br/>![img_14.png](img_14.png)|
-|-|-|-|
+|![img_12.png](img_12.png)<br/>|![img_13.png](img_13.png)<br/>![img_14.png](img_14.png)|
+|-|-|
 ![img_15.png](img_15.png)
 
 ## 3) Herencia

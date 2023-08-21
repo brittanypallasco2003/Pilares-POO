@@ -60,16 +60,16 @@ El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a
 ### 1.
 Supongamos que tenemos una jerarquía de clases que representan diferentes formas geométricas, como círculos y rectángulos.
 
-![img.png](src/Polimorfismo/img/img.png)
+![img.png](img/img15.png)
 
 Cada forma geométrica debe calcular su área. Para lograr el polimorfismo, podemos crear una interfaz común llamada "Shape" que define el método para calcular el área.
 
-|![img.png](src/Polimorfismo/img/img2.png)|![img.png](src/Polimorfismo/img/img3.png)|
+|![img.png](img/img16.png)|![img.png](img/img19.png)|
 |-|-|
 
 y luego las clases "Circle" y "Rectangle" implementarán esta interfaz y proporcionarán su propia implementación del cálculo del área.
 
-|![img.png](src/Polimorfismo/img/img4.png)|![img.png](src/Polimorfismo/img/img5.png)|
+|![img.png](img/img18.png)|![img.png](img/img17.png)|
 |-|-|
 
 En este ejemplo, tanto el objeto circle como el objeto rectangle pueden ser tratados de manera uniforme a través de la interfaz Shape, lo que permite llamar al método calculateArea() sin preocuparse por las diferencias específicas entre círculos y rectángulos. Esto es el polimorfismo en acción.

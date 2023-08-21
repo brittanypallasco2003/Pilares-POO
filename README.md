@@ -21,7 +21,8 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 #### 2. Herencia Jerárquica
 |Diagrama UML|Ingresar Información|Mostrar Información|
 |-----|--------|--------|
-|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/28e27793-f7d4-4305-ba9b-6d83024d6f9f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0f8c5fd4-df4f-408f-a4de-c9019bac76c1) ![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/633b9838-7aef-49b8-87d1-b93bd81b45b5)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ac6a9767-4f11-4cf5-9ebe-267425526c31)||![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/8b98b09d-4016-480f-8c28-0f2c2e3753b1)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/711fac96-02d2-4540-a4e1-fb3c0093c427)|
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/28e27793-f7d4-4305-ba9b-6d83024d6f9f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0f8c5fd4-df4f-408f-a4de-c9019bac76c1) ![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/633b9838-7aef-49b8-87d1-b93bd81b45b5)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ac6a9767-4f11-4cf5-9ebe-267425526c31)||
+![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/8b98b09d-4016-480f-8c28-0f2c2e3753b1)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/711fac96-02d2-4540-a4e1-fb3c0093c427)|
 
 
 #### 3. Herencia Multinivel

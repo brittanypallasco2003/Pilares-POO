@@ -13,6 +13,7 @@ La abstracción se trata de simplificar la realidad al modelar objetos y concept
 |-|-|-|
 ![img_13.png](img/img_13.png)
 
+
 #### 3. Ejemplo Abstracción Cuenta
 |![img_6.png](img/img_6.png)<br/>En este ejemplo, se emplea la abstracción para definir una clase base abstracta llamada BankAccount. Esta clase contiene una propiedad balance y métodos abstractos deposit() y withdraw() que representan acciones genéricas para depositar y retirar dinero.|![img_7.png](img/img_7.png)<br/>Las clases derivadas CheckingAccount y SavingsAccount heredan de BankAccount y proporcionan implementaciones específicas para los métodos deposit() y withdraw() según el tipo de cuenta.|![img_8.png](img/img_8.png)<br/>En el método main, se crean instancias de las clases CheckingAccount y SavingsAccount se realizan depósitos y retiros en cada una, y la abstracción permite gestionar las cuentas bancarias sin preocuparse por los detalles específicos de cómo funcionan internamente.|
 |-|-|-|
@@ -24,8 +25,8 @@ La encapsulación consiste en agrupar datos y los métodos (funciones) que opera
 
 #### 1. Ejemplo Encapsulamiento 1
 
-Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma
-
+|Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma|
+|-|
 ![img_4.png](img_4.png)
 
 Una vez creados los atributos se procede a crear los metodos publicos los cuales permitiran que se puedan acceder a los atributos en otra clase

@@ -76,4 +76,5 @@ En este ejemplo, tanto el objeto circle como el objeto rectangle pueden ser trat
 
 #### 2.
 En el segundo ejemplo se crean 4 clases en las cuales se puede observar que de una clase padre llamada "Animal" se desprenden dos clases hijas llamadas "Perro" y "Gato"
+
 ![img.png](img.png)![img_1.png](img_1.png)![img_2.png](img_2.png)

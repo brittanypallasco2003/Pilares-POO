@@ -21,7 +21,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 #### 2. Herencia Jerárquica
 |Diagrama UML|Ingresar Información|Mostrar Información|
 |-----|--------|--------|
-|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/28e27793-f7d4-4305-ba9b-6d83024d6f9f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/cdfe5547-e145-431c-acf1-a5937ef19635)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/44e7f0a6-c69b-499a-863e-33da2148c268)| 
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/28e27793-f7d4-4305-ba9b-6d83024d6f9f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0f8c5fd4-df4f-408f-a4de-c9019bac76c1) ![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/633b9838-7aef-49b8-87d1-b93bd81b45b5)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/44e7f0a6-c69b-499a-863e-33da2148c268)| 
 
 #### 3. Herencia Multinivel
 

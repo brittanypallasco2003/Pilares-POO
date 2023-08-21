@@ -21,6 +21,29 @@ La abstracción se trata de simplificar la realidad al modelar objetos y concept
 ### Explicación
 La encapsulación consiste en agrupar datos y los métodos (funciones) que operan sobre esos datos en una única entidad llamada "clase". Una clase encapsula la implementación interna de un objeto y proporciona una interfaz pública para interactuar con él. Esto significa que el código externo no necesita conocer los detalles internos de cómo funciona la clase, solo necesita utilizar los métodos públicos proporcionados.
 ### Ejemplos:
+
+#### 1. Ejemplo Encapsulamiento 1
+
+Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma
+
+![img_4.png](img_4.png)
+
+Una vez creados los atributos se procede a crear los metodos publicos los cuales permitiran que se puedan acceder a los atributos en otra clase
+
+![img_5.png](img_5.png)
+
+Dentro de clase main se puede observar que los atributos finalmente pueden ser llamados junto a los metodos publicos
+
+![img_6.png](img_6.png)![img_7.png](img_7.png)
+
+#### 2. Ejemplo Encapsulamiento 2
+
+![img_8.png](img_8.png)![img_9.png](img_9.png)![img_10.png](img_10.png)![img_11.png](img_11.png)
+
+#### 3. Ejemplo Encapsulamiento 3
+
+![img_12.png](img_12.png)![img_13.png](img_13.png)![img_14.png](img_14.png)![img_15.png](img_15.png)
+
 ## 3) Herencia
 ### Explicación
  La herencia es una relación especial entre dos clases, la clase ***Padre*** o la ***SuperClase*** y la clase ***Hija*** en donde la clase Hija obtiene la habilidad de utilizar ciertas propiedades y funcionalidades de la clase Padre. La idea es que la clase Hija “hereda” los métodos y atributos de la clase Padre.  
@@ -77,5 +100,10 @@ En este ejemplo, tanto el objeto circle como el objeto rectangle pueden ser trat
 #### 2.
 En el segundo ejemplo se crean 4 clases en las cuales se puede observar que de una clase padre llamada "Animal" se desprenden dos clases hijas llamadas "Perro" y "Gato"
 
-|![img.png](img.png)|![img_1.png](img_1.png)|![img_2.png](img_2.png)
-|-|-|
+![img.png](img.png)![img_1.png](img_1.png)![img_2.png](img_2.png)
+
+La ultima clase llamada "Polimorfismo" se puede observar que se llama el metodo "hacersonido" tanto de la clase padre como de las clases hijas 
+
+![img_3.png](img_3.png)
+
+Esto demuestra como el polimorfismo permite que un mismo metodo se comporte de manera diferente segun el tipo real del objeto en tiempo de ejecucion

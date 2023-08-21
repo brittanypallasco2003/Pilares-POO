@@ -52,6 +52,7 @@ Cada forma geométrica debe calcular su área. Para lograr el polimorfismo, pode
 
 |![img.png](src/Polimorfismo/img/img2.png)|![img.png](src/Polimorfismo/img/img3.png)|
 |-|-|
+
 y luego las clases "Circle" y "Rectangle" implementarán esta interfaz y proporcionarán su propia implementación del cálculo del área.
 
 |![img.png](src/Polimorfismo/img/img4.png)|![img.png](src/Polimorfismo/img/img5.png)|

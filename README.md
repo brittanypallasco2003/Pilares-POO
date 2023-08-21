@@ -3,17 +3,17 @@
 ### Explicación
 La abstracción se trata de simplificar la realidad al modelar objetos y conceptos complejos en el software. En lugar de tratar con todos los detalles específicos de un objeto, se destacan solo los aspectos relevantes para la tarea en cuestión. 
 ### Ejemplos:
-#### 1. Ejemplo Abstraccion Carros
+#### 1. Ejemplo Abstracción Carros
 | ![img.png](img/img.png)<br/>En este ejemplo, se utiliza la abstracción para definir una clase base abstracta llamada Vehicle. Esta clase tiene dos métodos abstractos: start() y stop(), que representan acciones genéricas de encendido y apagado de un vehículo. | ![img_1.png](img/img_1.png)<br/>Las clases derivadas Car y Motorcycle heredan de la clase Vehicle y proporcionan implementaciones específicas para los métodos start() y stop() según el tipo de vehículo.| ![img_2.png](img/img_2.png)En el método main, se crean instancias de las clases Car y Motorcycle y se llama a los métodos start() y stop() en cada una. La abstracción permite tratar a los vehículos de manera general, sin preocuparse por los detalles específicos de su funcionamiento interno.|
 |--------------------------|----|----|
 ![img_12.png](img/img_12.png)
 
-#### 2. Ejemplo Abstraccion Geometrica
+#### 2. Ejemplo Abstracción Geométrica
 |![img_3.png](img/img_3.png)<br/>En este ejemplo, se utiliza la abstracción a través de una interfaz llamada Shape. Esta interfaz define un único método calculateArea(), que representa la acción genérica de calcular el área de una forma geométrica. |![img_4.png](img/img_4.png)<br/>Las clases Circle y Rectangle implementan la interfaz Shape y proporcionan implementaciones específicas para el cálculo del área según la forma.|![img_5.png](img/img_5.png)<br/>En el método main, se crean instancias de las clases Circle y Rectangle y se llama al método calculateArea() en cada una. La abstracción permite tratar a las formas geométricas de manera uniforme, sin preocuparse por las diferencias específicas entre círculos y rectángulos.|
 |-|-|-|
 ![img_13.png](img/img_13.png)
 
-#### 3. Ejemplo Abstraccion Cuenta
+#### 3. Ejemplo Abstracción Cuenta
 |![img_6.png](img/img_6.png)<br/>En este ejemplo, se emplea la abstracción para definir una clase base abstracta llamada BankAccount. Esta clase contiene una propiedad balance y métodos abstractos deposit() y withdraw() que representan acciones genéricas para depositar y retirar dinero.|![img_7.png](img/img_7.png)<br/>Las clases derivadas CheckingAccount y SavingsAccount heredan de BankAccount y proporcionan implementaciones específicas para los métodos deposit() y withdraw() según el tipo de cuenta.|![img_8.png](img/img_8.png)<br/>En el método main, se crean instancias de las clases CheckingAccount y SavingsAccount se realizan depósitos y retiros en cada una, y la abstracción permite gestionar las cuentas bancarias sin preocuparse por los detalles específicos de cómo funcionan internamente.|
 |-|-|-|
 
@@ -57,7 +57,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 ### Explicación
 El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a través de una interfaz común. Puedes crear métodos en una superclase que pueden ser implementados de manera diferente en las subclases. Esto permite que distintos objetos respondan a una misma llamada de método de manera adecuada según su tipo.
 ### Ejemplos:
-### 1.
+#### 1.
 Supongamos que tenemos una jerarquía de clases que representan diferentes formas geométricas, como círculos y rectángulos.
 
 ![img.png](img/img15.png)

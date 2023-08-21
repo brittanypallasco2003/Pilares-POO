@@ -45,7 +45,9 @@ El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a
 ### Ejemplos:
 ### 1.
 Supongamos que tenemos una jerarquía de clases que representan diferentes formas geométricas, como círculos y rectángulos.
+
 ![img.png](src/Polimorfismo/img/img.png)
+
 Cada forma geométrica debe calcular su área. Para lograr el polimorfismo, podemos crear una interfaz común llamada "Shape" que define el método para calcular el área.
 
 |![img.png](src/Polimorfismo/img/img2.png)|![img.png](src/Polimorfismo/img/img3.png)|

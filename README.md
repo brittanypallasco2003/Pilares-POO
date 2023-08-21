@@ -13,12 +13,14 @@ La encapsulación consiste en agrupar datos y los métodos (funciones) que opera
 Una de las ventajas que ofrece la Herencia es la reutilización de código en el programa, puesto que permite ahorrar trabajo al realizar un cambio en en el sistema al permitir que un solo algoritmo pueda procesar distintas clases de entidades.
 ### Ejemplos: 
 #### 1. Herencia Única
+*La clase Gato hereda los métodos y atributos de la clase Mascota, por lo cual se puede acceder y setear el nombre de la mascota y del dueño.* 
 |Diagrama UML|Ingresar Información|Mostrar Información|
 |-----|--------|--------|
-|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/a2fd1404-0d01-4e91-8dae-28872313f999)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/88e6c0a9-2f3f-403e-8b2e-3db9faaa9e02)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/d4679860-0fe7-4e8c-a8cf-03ac1d801eb4)| 
+|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/a2fd1404-0d01-4e91-8dae-28872313f999)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/88e6c0a9-2f3f-403e-8b2e-3db9faaa9e02)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/d4679860-0fe7-4e8c-a8cf-03ac1d801eb4)|  
 
-*La clase Gato hereda los métodos y atributos de la clase Mascota, por lo cual se puede acceder y setear el nombre de la mascota y del dueño.* 
 #### 2. Herencia Jerárquica
+***La clase Mascota clase sirve como una superclase para más de una subclase o clase hija (Gato, Perro, Conejo).***  
+
 |Diagrama UML|Ingresar Información|Mostrar Información|
 |-----|--------|--------|
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/28e27793-f7d4-4305-ba9b-6d83024d6f9f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/0f8c5fd4-df4f-408f-a4de-c9019bac76c1) ![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/633b9838-7aef-49b8-87d1-b93bd81b45b5)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ac6a9767-4f11-4cf5-9ebe-267425526c31)|

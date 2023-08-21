@@ -73,3 +73,7 @@ y luego las clases "Circle" y "Rectangle" implementarán esta interfaz y proporc
 |-|-|
 
 En este ejemplo, tanto el objeto circle como el objeto rectangle pueden ser tratados de manera uniforme a través de la interfaz Shape, lo que permite llamar al método calculateArea() sin preocuparse por las diferencias específicas entre círculos y rectángulos. Esto es el polimorfismo en acción.
+
+#### 2.
+En el segundo ejemplo se crean 4 clases en las cuales se puede observar que de una clase padre llamada "Animal" se desprenden dos clases hijas llamadas "Perro" y "Gato"
+![img.png](img.png)![img_1.png](img_1.png)![img_2.png](img_2.png)

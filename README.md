@@ -3,6 +3,20 @@
 ### Explicación
 La abstracción se trata de simplificar la realidad al modelar objetos y conceptos complejos en el software. En lugar de tratar con todos los detalles específicos de un objeto, se destacan solo los aspectos relevantes para la tarea en cuestión. 
 ### Ejemplos:
+#### 1. Ejemplo Abstraccion Carros
+| ![img.png](img.png)<br/>En este ejemplo, se utiliza la abstracción para definir una clase base abstracta llamada Vehicle. Esta clase tiene dos métodos abstractos: start() y stop(), que representan acciones genéricas de encendido y apagado de un vehículo. | ![img_1.png](img_1.png)<br/>Las clases derivadas Car y Motorcycle heredan de la clase Vehicle y proporcionan implementaciones específicas para los métodos start() y stop() según el tipo de vehículo.| ![img_2.png](img_2.png)En el método main, se crean instancias de las clases Car y Motorcycle y se llama a los métodos start() y stop() en cada una. La abstracción permite tratar a los vehículos de manera general, sin preocuparse por los detalles específicos de su funcionamiento interno.|
+|--------------------------|----|----|
+
+#### 2. Ejemplo Abstraccion Geometrica
+|![img_3.png](img_3.png)<br/>En este ejemplo, se utiliza la abstracción a través de una interfaz llamada Shape. Esta interfaz define un único método calculateArea(), que representa la acción genérica de calcular el área de una forma geométrica. |![img_4.png](img_4.png)<br/>Las clases Circle y Rectangle implementan la interfaz Shape y proporcionan implementaciones específicas para el cálculo del área según la forma.|![img_5.png](img_5.png)<br/>En el método main, se crean instancias de las clases Circle y Rectangle y se llama al método calculateArea() en cada una. La abstracción permite tratar a las formas geométricas de manera uniforme, sin preocuparse por las diferencias específicas entre círculos y rectángulos.|
+|-|-|-|
+
+#### 2. Ejemplo Abstraccion Geometrica
+|![img_6.png](img_6.png)|![img_7.png](img_7.png)|![img_8.png](img_8.png)|![img_9.png](img_9.png)|
+|-|-|-|-|
+|En este ejemplo, se emplea la abstracción para definir una clase base abstracta llamada BankAccount. Esta clase contiene una propiedad balance y métodos abstractos deposit() y withdraw() que representan acciones genéricas para depositar y retirar dinero.|Las clases derivadas CheckingAccount y SavingsAccount heredan de BankAccount y proporcionan implementaciones específicas para los métodos deposit() y withdraw() según el tipo de cuenta.|En el método main, se crean instancias de las clases CheckingAccount y SavingsAccount|se realizan depósitos y retiros en cada una, y la abstracción permite gestionar las cuentas bancarias sin preocuparse por los detalles específicos de cómo funcionan internamente.|
+
+
 ## 2) Encapsulamiento
 ### Explicación
 La encapsulación consiste en agrupar datos y los métodos (funciones) que operan sobre esos datos en una única entidad llamada "clase". Una clase encapsula la implementación interna de un objeto y proporciona una interfaz pública para interactuar con él. Esto significa que el código externo no necesita conocer los detalles internos de cómo funciona la clase, solo necesita utilizar los métodos públicos proporcionados.

@@ -5,8 +5,7 @@ La abstracción se trata de simplificar la realidad al modelar objetos y concept
 ### Ejemplos:
 #### 1. Ejemplo Abstracción Carros
 | ![img.png](img/img.png)<br/>En este ejemplo, se utiliza la abstracción para definir una clase base abstracta llamada Vehicle. Esta clase tiene dos métodos abstractos: start() y stop(), que representan acciones genéricas de encendido y apagado de un vehículo. | ![img_1.png](img/img_1.png)<br/>Las clases derivadas Car y Motorcycle heredan de la clase Vehicle y proporcionan implementaciones específicas para los métodos start() y stop() según el tipo de vehículo.| ![img_2.png](img/img_2.png)En el método main, se crean instancias de las clases Car y Motorcycle y se llama a los métodos start() y stop() en cada una. La abstracción permite tratar a los vehículos de manera general, sin preocuparse por los detalles específicos de su funcionamiento interno.|
-|--------------------------|----|----|
-
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|----|
 ![img_12.png](img/img_12.png)
 
 #### 2. Ejemplo Abstracción Geométrica

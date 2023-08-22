@@ -6,6 +6,7 @@ La abstracción se trata de simplificar la realidad al modelar objetos y concept
 #### 1. Ejemplo Abstracción Carros
 | ![img.png](img/img.png)<br/>En este ejemplo, se utiliza la abstracción para definir una clase base abstracta llamada Vehicle. Esta clase tiene dos métodos abstractos: start() y stop(), que representan acciones genéricas de encendido y apagado de un vehículo. | ![img_1.png](img/img_1.png)<br/>Las clases derivadas Car y Motorcycle heredan de la clase Vehicle y proporcionan implementaciones específicas para los métodos start() y stop() según el tipo de vehículo.| ![img_2.png](img/img_2.png)En el método main, se crean instancias de las clases Car y Motorcycle y se llama a los métodos start() y stop() en cada una. La abstracción permite tratar a los vehículos de manera general, sin preocuparse por los detalles específicos de su funcionamiento interno.|
 |--------------------------|----|----|
+
 ![img_12.png](img/img_12.png)
 
 #### 2. Ejemplo Abstracción Geométrica
@@ -23,21 +24,26 @@ La abstracción se trata de simplificar la realidad al modelar objetos y concept
 La encapsulación consiste en agrupar datos y los métodos (funciones) que operan sobre esos datos en una única entidad llamada "clase". Una clase encapsula la implementación interna de un objeto y proporciona una interfaz pública para interactuar con él. Esto significa que el código externo no necesita conocer los detalles internos de cómo funciona la clase, solo necesita utilizar los métodos públicos proporcionados.
 ### Ejemplos:
 
-#### 1. Ejemplo Encapsulamiento 1
+#### 1. Encapsulamiento 1
 
-|![img_4.png](img_4.png)<br/>Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma. |![img_5.png](img_5.png)<br/>Una vez creados los atributos se procede a crear los metodos publicos los cuales permitiran que se puedan acceder a los atributos en otra clase. |![img_6.png](img_6.png)![img_7.png](img_7.png)<br/>Dentro de clase main se puede observar que los atributos finalmente pueden ser llamados junto a los metodos publicos|
+|![img_4.png](img/img_24.png)<br/>Dentro de la clase "Personas" los atributos se encuentran declarados en privados por lo cual no pueden ser llamados por otra clase que no sea la misma. |![img_5.png](img/img_25.png)<br/>Una vez creados los atributos se procede a crear los metodos publicos los cuales permitiran que se puedan acceder a los atributos en otra clase. |![img_6.png](img/img_26.png)![img_7.png](img/img_27.png)<br/>Dentro de clase main se puede observar que los atributos finalmente pueden ser llamados junto a los metodos publicos|
 |-|-|-|
 
-#### 2. Ejemplo Encapsulamiento 2
+#### 2. Encapsulamiento 2
 
-|![img_9.png](img_9.png)<br/>|<br/>![img_11.png](img_11.png)|
-|-|-|
-![img_10.png](img_10.png)<br/>![img_8.png](img_8.png)
+|![img_9.png](img/img_29.png)<br/><br/>![img_11.png](img/img_31.png)|
+|-|
 
+|![img_10.png](img/img_30.png)<br/>![img_8.png](img/img_28.png)|
+|-|
 #### 3. Ejemplo Encapsulamiento 3
 
-|![img_12.png](img_12.png)![img_13.png](img_13.png)<br/>|<br/>![img_14.png](img_14.png)<br/>![img_15.png](img_15.png)|
-|-|-|
+| ![img_12.png](img/img_32.png)           |
+|-----------------------------------------|
+ | ![img_13.png](img/img_33.png)<br/>      |
+ | <br/>![img_14.png](img/img_34.png)<br/> |
+| ![img_15.png](img/img_35.png)           |
+
 
 ## 3) Herencia
 ### Explicación
@@ -46,12 +52,14 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 ### Ejemplos: 
 #### 1. Herencia Única
 *La clase Gato hereda los métodos y atributos de la clase Mascota, por lo cual se puede acceder y setear el nombre de la mascota y del dueño.* 
+
 |Diagrama UML|Ingresar Información|Mostrar Información|
 |----------------|--------|--------|
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/a2fd1404-0d01-4e91-8dae-28872313f999)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/88e6c0a9-2f3f-403e-8b2e-3db9faaa9e02)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/d4679860-0fe7-4e8c-a8cf-03ac1d801eb4)|  
 
 #### 2. Herencia Jerárquica
 *La clase Mascota sirve como una superclase para más de una subclase o clase hija (Gato, Perro, Conejo).*
+
 |Diagrama UML|
 |-----|
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/28e27793-f7d4-4305-ba9b-6d83024d6f9f)|
@@ -63,6 +71,7 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/16970bf0-1622-4b3f-9b93-02303e80e195) ![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/2c019aa8-df0c-4a99-ac6a-f7cccaf7713e)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/f0165636-4458-4453-a4b2-b54d0960c73f)|![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/4dc682e8-c617-40b0-ac20-d99055e1c463)|
 #### 3. Herencia Multinivel
 *La **clase "nieta" (Perro)** heredará los métodos y atributos de una **clase padre (Mascota)** y, además, la clase Mascota también heredará los métodos y atributos de una **clase "Abuela" (Animal_Dom)** como la clase Padre de la clase Mascota y abuela de la clase Perro. La **clase Lobo es hija** de la **clase Padre, Animal_Salv**.*
+
 |Diagrama UML|
 |-----|
 |![image](https://github.com/brittanypallasco2003/Pilares-POO/assets/117743650/ac961353-e33f-49c3-9cff-1a96026b9073)|
@@ -76,9 +85,9 @@ Una de las ventajas que ofrece la Herencia es la reutilización de código en el
 El polimorfismo permite tratar objetos de diferentes clases de manera uniforme a través de una interfaz común. Puedes crear métodos en una superclase que pueden ser implementados de manera diferente en las subclases. Esto permite que distintos objetos respondan a una misma llamada de método de manera adecuada según su tipo.
 ### Ejemplos:
 #### 1.
-Supongamos que tenemos una jerarquía de clases que representan diferentes formas geométricas, como círculos y rectángulos.
-
-![img.png](img/img15.png)
+|Supongamos que tenemos una jerarquía de clases que representan diferentes formas geométricas, como círculos y rectángulos.|
+|--------------------------------------------------------------------------------------------------------------------------|
+| ![img.png](img/img15.png)                                                                                                |
 
 Cada forma geométrica debe calcular su área. Para lograr el polimorfismo, podemos crear una interfaz común llamada "Shape" que define el método para calcular el área.
 
@@ -96,11 +105,12 @@ En este ejemplo, tanto el objeto circle como el objeto rectangle pueden ser trat
 |En el segundo ejemplo se crean 4 clases en las cuales se puede observar que de una clase padre llamada "Animal" se desprenden dos clases hijas llamadas "Perro" y "Gato"|
 |---|
 
-|![img.png](img.png)|![img_1.png](img_1.png)|![img_2.png](img_2.png)|
+|![img.png](img/img20.png)|![img_1.png](img/img_21.png)|![img_2.png](img/img_22.png)|
 |----|---|---|
 
 |La ultima clase llamada "Polimorfismo" se puede observar que se llama el metodo "hacersonido" tanto de la clase padre como de las clases hijas| 
-|------|
-|![img_3.png](img_3.png)|
+|-|
 
-Esto demuestra como el polimorfismo permite que un mismo metodo se comporte de manera diferente segun el tipo real del objeto en tiempo de ejecucion
+|![img_3.png](img/img_23.png)|
+|-|
+|Esto demuestra como el polimorfismo permite que un mismo metodo se comporte de manera diferente segun el tipo real del objeto en tiempo de ejecucion|
